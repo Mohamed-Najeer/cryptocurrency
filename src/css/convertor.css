@@ -1,0 +1,51 @@
+ .well{
+    background-color: #f8f8f8;
+    width: 650px;
+ }
+ .input-icons i { 
+    position: absolute; 
+    padding: 5px 10px;
+}  
+.input-icons { 
+    width: 50px; 
+    margin-bottom: 10px; 
+} 
+.icon { 
+    padding: 14px 19px;
+    min-width: 40px;
+} 
+.input-field { 
+    width: 50px; 
+    padding: 10px; 
+    text-align: center; 
+} 
+.fa{
+    color:#ffffff;
+}
+.no_currency_input{
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    width: 100%;
+    height: 40px;
+    padding: 0% 2%;
+}
+@media(min-width:720px){
+    .no_currency_input{
+        width:38.9%;
+    }
+}
+@media(max-width:719px){
+    .input-icons { 
+margin: 0% 30% 2% 30%;
+    }
+}
+@media(max-width:540px){
+    .input-icons { 
+margin: 0% 37% 2% 37%;
+    }
+}
+@media(max-width:370px){
+    .input-icons { 
+margin: 0% 30% 2% 30%;
+    }
+}
